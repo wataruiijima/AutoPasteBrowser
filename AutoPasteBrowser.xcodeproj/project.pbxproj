@@ -13,6 +13,7 @@
 		527F5C782464F05C001B8EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527F5C772464F05C001B8EBB /* Assets.xcassets */; };
 		527F5C7B2464F05C001B8EBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527F5C7A2464F05C001B8EBB /* Preview Assets.xcassets */; };
 		527F5C7E2464F05C001B8EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527F5C7C2464F05C001B8EBB /* LaunchScreen.storyboard */; };
+		527F5C88246505F4001B8EBB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527F5C87246505F4001B8EBB /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		527F5C7A2464F05C001B8EBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		527F5C7D2464F05C001B8EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		527F5C7F2464F05C001B8EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527F5C87246505F4001B8EBB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				527F5C7C2464F05C001B8EBB /* LaunchScreen.storyboard */,
 				527F5C7F2464F05C001B8EBB /* Info.plist */,
 				527F5C792464F05C001B8EBB /* Preview Content */,
+				527F5C87246505F4001B8EBB /* WebView.swift */,
 			);
 			path = AutoPasteBrowser;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				527F5C722464F054001B8EBB /* AppDelegate.swift in Sources */,
+				527F5C88246505F4001B8EBB /* WebView.swift in Sources */,
 				527F5C742464F054001B8EBB /* SceneDelegate.swift in Sources */,
 				527F5C762464F054001B8EBB /* ContentView.swift in Sources */,
 			);
